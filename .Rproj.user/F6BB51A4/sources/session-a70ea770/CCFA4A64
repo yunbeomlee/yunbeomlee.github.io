@@ -1,26 +1,26 @@
 {
-    "id": "8DAC3C5B",
-    "path": "~/Github/yunbeomlee.github.io/stat1.Rmd",
-    "project_path": "stat1.Rmd",
+    "id": "CCFA4A64",
+    "path": "~/Github/yunbeomlee.github.io/index.Rmd",
+    "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "1265487386",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1725392018482.0,
+    "created": 1725390831296.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "62,0",
-        "scrollLine": "45"
+        "cursorPosition": "25,86",
+        "scrollLine": "22"
     },
     "folds": "",
-    "lastKnownWriteTime": 1725392083,
+    "lastKnownWriteTime": 1725642199,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1725392083369,
+    "last_content_update": 1725642199155,
     "read_only": false,
     "read_only_alternatives": []
 }
