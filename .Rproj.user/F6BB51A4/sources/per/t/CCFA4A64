@@ -3,7 +3,7 @@
     "path": "~/Github/yunbeomlee.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3473746092",
     "contents": "",
     "dirty": false,
     "created": 1725390831296.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "25,86",
-        "scrollLine": "22"
+        "cursorPosition": "25,0",
+        "scrollLine": "21"
     },
     "folds": "",
-    "lastKnownWriteTime": 1725642199,
+    "lastKnownWriteTime": 1725651700,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1725642199155,
+    "last_content_update": 1725651700788,
     "read_only": false,
     "read_only_alternatives": []
 }

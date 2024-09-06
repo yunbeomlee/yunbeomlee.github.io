@@ -27,7 +27,7 @@ navbar:
     - icon: fas fa-envelope
       href: contact.html
     - icon: ai-cv ai-lg
-      href: files/sample_resume.pdf
+      href: files/Yunbeom Lee Resume.pdf
     #- icon: fab fa-github
     #  href: http://github.com/
     - icon: fab fa-linkedin-in
