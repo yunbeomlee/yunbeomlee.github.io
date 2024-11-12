@@ -338,10 +338,10 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="stat1.html">Predicting House Prices in Iowa</a>
+      <a href="stat1.html">Predicting Car Prices for Geely Auto's Entry into the U.S. Market</a>
     </li>
     <li>
-      <a href="stat2.html">Predicting AirBnb Prices in NYC</a>
+      <a href="stat2.html">Strange Hadron Production in Au-Au Collisions</a>
     </li>
   </ul>
 </li>
@@ -384,7 +384,7 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/yunbeomlee99/">
+  <a href="https://www.linkedin.com/in/yunbeomlee-data/">
     <span class="fab fa-linkedin-in"></span>
      
   </a>
@@ -405,47 +405,58 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br></p>
-<div id="predicting-house-prices-in-iowa" class="section level2">
-<h2><strong>Predicting House Prices in Iowa</strong></h2>
+<div
+id="predicting-car-prices-for-geely-autos-entry-into-the-u.s.-market"
+class="section level2">
+<h2><strong>Predicting Car Prices for Geely Auto’s Entry into the U.S.
+Market</strong></h2>
 <p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
+src="https://img.shields.io/badge/-SFS-red" /> <img
 src="https://img.shields.io/badge/-LASSO-red" /> <img
+src="https://img.shields.io/badge/-SVM-red" /> <img
+src="https://img.shields.io/badge/-Random%20Forest-red" /> <img
 src="https://img.shields.io/badge/-XGBoost-success" /></p>
 <p><br></p>
-<p>🚨<strong>THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE
-STEPBYSTAT COMMUNITY.</strong></p>
 <p><br><br><br></p>
 <div id="figure" class="section level3">
 <h3>1. Figure</h3>
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/predict_carprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. Random Forest regression features by importance]
 </p>
 <p><br></p>
 <p><br><br></p>
 </div>
 <div id="goal" class="section level3">
 <h3>2. Goal</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
+<p>To predict the final price of each car using multiple explanatory
+variables describing different characteristics of cars manufactured by
+Geely Auto, aiming to enter the U.S. market and compete with established
+automotive brands.</p>
 <p><br></p>
 </div>
 <div id="methodology-summary" class="section level3">
 <h3>3. Methodology &amp; Summary</h3>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li>The Random Forest Regressor showed the best performance with a
+cross-validation R-squared value of 0.9101, Mean Squared Error (MSE) of
+0.02317, and Mean Absolute Error (MAE) of 0.12166. Random Forest’s
+feature selection revealed that enginesize, curbweight, and horsepower
+were among the most significant variables contributing to car price
+predictions.</li>
+<li>The LASSO regression also performed well, with an R-squared value of
+0.9012. The LASSO model naturally handled multicollinearity and included
+feature selection by eliminating unnecessary variables. The XGBoost
+model followed closely with an R-squared of 0.8893, representing the
+potential of boosting techniques in predictive performance.</li>
+<li>The methodologies tested provided insights into feature importance
+for car pricing. Despite Random Forest and LASSO being different types
+of algorithms, combining predictions might further enhance accuracy.
+However, Random Forest’s strong predictive capability, as evidenced by
+the cross-validation metrics, made it the primary choice for this
+task.</li>
 </ul>
 <p><br></p>
 </div>

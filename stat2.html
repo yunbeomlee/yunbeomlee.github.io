@@ -338,10 +338,10 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="stat1.html">Predicting House Prices in Iowa</a>
+      <a href="stat1.html">Predicting Car Prices for Geely Auto's Entry into the U.S. Market</a>
     </li>
     <li>
-      <a href="stat2.html">Predicting AirBnb Prices in NYC</a>
+      <a href="stat2.html">Strange Hadron Production in Au-Au Collisions</a>
     </li>
   </ul>
 </li>
@@ -384,7 +384,7 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/yunbeomlee99/">
+  <a href="https://www.linkedin.com/in/yunbeomlee-data/">
     <span class="fab fa-linkedin-in"></span>
      
   </a>
@@ -405,55 +405,60 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br></p>
-<div id="airbnb-prices-in-nyc" class="section level2">
-<h2><strong>AirBnb Prices in NYC</strong></h2>
+<div id="strange-hadron-production-in-au-au-collisions"
+class="section level2">
+<h2><strong>Strange Hadron Production in Au-Au Collisions</strong></h2>
 <p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
-src="https://img.shields.io/badge/-LASSO-red" /> <img
-src="https://img.shields.io/badge/-XGBoost-success" /></p>
+src="https://img.shields.io/badge/-one%20way%20Anova-success" /> <img
+src="https://img.shields.io/badge/-two%20sample%20independent%20t%20test-success" /></p>
 <p><br></p>
-<p>🚨<strong>THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE
-STEPBYSTAT COMMUNITY.</strong></p>
 <p><br><br><br></p>
 <div id="figure" class="section level3">
 <h3>1. Figure</h3>
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/antibaryon_ratio.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. The antibaryon-to-baryon ratios as a function of ⟨N_part⟩ from Au
++ Au collisions in different energy levels.]
 </p>
 <p><br></p>
 <p><br><br></p>
 </div>
 <div id="goal" class="section level3">
 <h3>2. Goal</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
+<p>To analyze the production of strange hadrons in Au-Au collisions by
+modeling the average transverse mass and antibaryon-to-baryon ratios,
+with the aim of identifying significant differences in data across
+different center-of-mass energies ranging from 7.7 to 39 GeV.</p>
 <p><br></p>
 </div>
 <div id="methodology-summary" class="section level3">
 <h3>3. Methodology &amp; Summary</h3>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li>We used polynomial model fitting to describe the trends in average
+transverse mass and antibaryon-to-baryon ratios for various energy
+levels. For hypothesis testing, we employed a two-sample t-test to
+analyze the antibaryon-to-baryon ratio and a one-way ANOVA test for the
+transverse mass. The results indicated significant differences in both
+variables at different energy levels, with p-values 0.003 and 0.01,
+respectively, rejecting the null hypotheses.</li>
+<li>Our analysis revealed that higher energy levels result in an
+increased magnitude of both the antibaryon-to-baryon ratio and
+transverse mass. The best-fit model for the antibaryon-to-baryon ratio
+had an R-squared value of 0.9999 for the 11.5 GeV energy level, while
+the transverse mass model at 19.6 GeV also achieved an R-squared value
+of 0.9999. These findings suggest that there is a strong dependence of
+the produced hadron properties on the center-of-mass energy,
+contributing to our understanding of particle dynamics in heavy ion
+collisions.</li>
 </ul>
 <p><br></p>
 </div>
 <div id="code" class="section level3">
 <h3>4. Code</h3>
-<p>Please click <a
-href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
-for the analysis report and code.</p>
+<p>Please click <a href="files/PHYS_267_Final_Project.pdf">HERE</a> for
+the analysis report and code.</p>
 <p><br></p>
 </div>
 </div>

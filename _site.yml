@@ -11,9 +11,9 @@ navbar:
       href: tutorials.html
     - text: "Stat/ML"
       menu: 
-      - text: "Predicting House Prices in Iowa"
+      - text: "Predicting Car Prices for Geely Auto's Entry into the U.S. Market"
         href: stat1.html
-      - text: "Predicting AirBnb Prices in NYC"
+      - text: "Strange Hadron Production in Au-Au Collisions"
         href: stat2.html
     - text: "DB/SQL"
       menu: 

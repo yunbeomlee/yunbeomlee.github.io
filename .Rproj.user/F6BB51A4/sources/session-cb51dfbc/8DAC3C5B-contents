@@ -14,25 +14,26 @@ output:
 
 <br><br><br>
 
-## **Predicting House Prices in Iowa**
+## **Predicting Car Prices for Geely Auto's Entry into the U.S. Market**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
+![](https://img.shields.io/badge/-SFS-red)
 ![](https://img.shields.io/badge/-LASSO-red)
+![](https://img.shields.io/badge/-SVM-red)
+![](https://img.shields.io/badge/-Random Forest-red)
 ![](https://img.shields.io/badge/-XGBoost-success)
 
 <br>
-
-🚨**THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE STEPBYSTAT COMMUNITY.**
 
 <br><br><br>
 
 ### 1. Figure
 
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/predict_carprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. Random Forest regression features by importance]
 </p>
 
 
@@ -41,15 +42,15 @@ output:
 <br><br>
 
 ### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+To predict the final price of each car using multiple explanatory variables describing different characteristics of cars manufactured by Geely Auto, aiming to enter the U.S. market and compete with established automotive brands.
 
 <br>
 
 ### 3. Methodology & Summary
 
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+  + The Random Forest Regressor showed the best performance with a cross-validation R-squared value of 0.9101, Mean Squared Error (MSE) of 0.02317, and Mean Absolute Error (MAE) of 0.12166. Random Forest's feature selection revealed that enginesize, curbweight, and horsepower were among the most significant variables contributing to car price predictions.
+  + The LASSO regression also performed well, with an R-squared value of 0.9012. The LASSO model naturally handled multicollinearity and included feature selection by eliminating unnecessary variables. The XGBoost model followed closely with an R-squared of 0.8893, representing the potential of boosting techniques in predictive performance.
+  + The methodologies tested provided insights into feature importance for car pricing. Despite Random Forest and LASSO being different types of algorithms, combining predictions might further enhance accuracy. However, Random Forest's strong predictive capability, as evidenced by the cross-validation metrics, made it the primary choice for this task.
 
 <br>
 
