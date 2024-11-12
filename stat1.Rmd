@@ -56,7 +56,7 @@ To predict the final price of each car using multiple explanatory variables desc
 
 ### 4. Code
 
-Please click [HERE](files/sample_resume.pdf) for the analysis report and code.
+Please click [HERE](https://nbviewer.org/github/yunbeomlee/yunbeomlee.github.io/blob/main/files/Car_Price_Prediction.ipynb) for the analysis report and code.
 
 <br>
 
