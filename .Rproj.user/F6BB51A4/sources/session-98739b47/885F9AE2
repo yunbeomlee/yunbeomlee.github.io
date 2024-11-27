@@ -3,7 +3,7 @@
     "path": "~/Github/yunbeomlee.github.io/stat2.Rmd",
     "project_path": "stat2.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1327718057",
     "contents": "",
     "dirty": false,
     "created": 1731371310720.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "29,37",
+        "cursorPosition": "29,90",
         "scrollLine": "18"
     },
     "folds": "",
-    "lastKnownWriteTime": 1732687728,
+    "lastKnownWriteTime": 1732688217,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1732687728862,
+    "last_content_update": 1732688217495,
     "read_only": false,
     "read_only_alternatives": []
 }
