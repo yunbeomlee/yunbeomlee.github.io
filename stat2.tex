@@ -1,0 +1,124 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+{
+\setcounter{tocdepth}{5}
+\tableofcontents
+}
+
+\subsection{\texorpdfstring{\textbf{Strange Hadron Production in Au-Au
+Collisions}}{Strange Hadron Production in Au-Au Collisions}}\label{strange-hadron-production-in-au-au-collisions}
+
+\includegraphics{https://img.shields.io/badge/Using-Python-blue}
+\includegraphics{https://img.shields.io/badge/-one\%20way\%20Anova-success}
+\includegraphics{https://img.shields.io/badge/-two\%20sample\%20independent\%20t\%20test-success}
+
+\subsubsection{1. Figure}\label{figure}
+
+{[}Fig. The antibaryon-to-baryon ratios as a function of ⟨N\_part⟩ from
+Au + Au collisions in different energy levels.{]}
+
+\subsubsection{2. Goal}\label{goal}
+
+To analyze the production of strange hadrons in Au-Au collisions by
+modeling the average transverse mass and antibaryon-to-baryon ratios,
+with the aim of identifying significant differences in data across
+different center-of-mass energies ranging from 7.7 to 39 GeV.
+
+\subsubsection{3. Methodology \& Summary}\label{methodology-summary}
+
+\begin{itemize}
+\tightlist
+\item
+  We used polynomial model fitting to describe the trends in average
+  transverse mass and antibaryon-to-baryon ratios for various energy
+  levels. For hypothesis testing, we employed a two-sample t-test to
+  analyze the antibaryon-to-baryon ratio and a one-way ANOVA test for
+  the transverse mass. The results indicated significant differences in
+  both variables at different energy levels, with p-values 0.003 and
+  0.01, respectively, rejecting the null hypotheses.
+\item
+  Our analysis revealed that higher energy levels result in an increased
+  magnitude of both the antibaryon-to-baryon ratio and transverse mass.
+  The best-fit model for the antibaryon-to-baryon ratio had an R-squared
+  value of 0.9999 for the 11.5 GeV energy level, while the transverse
+  mass model at 19.6 GeV also achieved an R-squared value of 0.9999.
+  These findings suggest that there is a strong dependence of the
+  produced hadron properties on the center-of-mass energy, contributing
+  to our understanding of particle dynamics in heavy ion collisions.
+\end{itemize}
+
+\subsubsection{4. Code}\label{code}
+
+Please click \href{files/PHYS_267_Final_Project.pdf}{HERE} for the
+analysis report and code.
+
+\end{document}

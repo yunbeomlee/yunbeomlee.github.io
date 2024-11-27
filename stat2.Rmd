@@ -1,15 +1,12 @@
 ---
-pagetitle: Stat2
+pagetitle: "Stat2"
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '5'
   html_document:
-    toc: yes
+    toc: true
     toc_depth: 5
     toc_float:
-      collapsed: no
-      smooth_scroll: no
+      collapsed: false
+      smooth_scroll: false
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
