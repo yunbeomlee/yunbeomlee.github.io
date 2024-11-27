@@ -7,22 +7,22 @@ output_dir: "."
 navbar:
   title: "Yunbeom Lee"
   left:
-    - text: "Tutorials"
-      href: tutorials.html
+    #- text: "Tutorials"
+    #  href: tutorials.html
     - text: "Stat/ML"
       menu: 
       - text: "Predicting Car Prices for Geely Auto's Entry into the U.S. Market"
         href: stat1.html
       - text: "Strange Hadron Production in Au-Au Collisions"
         href: stat2.html
-    - text: "DB/SQL"
-      menu: 
-      - text: "Movie Explorer"
-        href: dbsql1.html
-    - text: "Visualization"
-      menu: 
-      - text: "Squid Game Elimination Analysis"
-        href: visualization1.html
+    #- text: "DB/SQL"
+    #  menu: 
+    #  - text: "Movie Explorer"
+    #    href: dbsql1.html
+    #- text: "Visualization"
+    #  menu: 
+    #  - text: "Squid Game Elimination Analysis"
+    #    href: visualization1.html
   right:
     - icon: fas fa-envelope
       href: contact.html
